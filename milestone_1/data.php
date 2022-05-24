@@ -1,7 +1,6 @@
 <?php
+
 $discs = [
-    "success" => true,
-    "response" => [
         [
         "id" => 1,
             "poster" => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
@@ -82,10 +81,4 @@ $discs = [
             "genre" => "Pop",
             "year" => "1987"
         ],
-    ]
 ];
-
-header ('Content-Type: application/json');
-header('Access-Control-Allow-Origin: *');
-
-echo json_encode($discs);
