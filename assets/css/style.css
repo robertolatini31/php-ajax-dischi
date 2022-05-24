@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2e3a46;
+}
+main {
+    background-color: #1E2D3B ;
+}
+
+.album_card {
+    background-color: #2E3A46;
+    height: 380px;
+    width: 320px;
+}
+
+.album_card p, .album_card span {
+    color: #737B7C;
+    font-weight: 500;
+}
+.album_poster {
+    max-width: 200px;
+       max-height: 200px;
+       object-fit: cover;
+}
