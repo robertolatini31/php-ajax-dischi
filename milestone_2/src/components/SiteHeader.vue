@@ -43,6 +43,7 @@ export default {
       state.artistSelected = this.artistSelected;
       //console.log(state.genSelected);
     },
+   
   },
 };
 </script>
